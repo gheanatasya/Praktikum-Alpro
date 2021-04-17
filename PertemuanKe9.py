@@ -14,7 +14,7 @@
 #         kedalam sebuah list yang akan ditampilkan sebagai laporan
 #output = nama mahasiswa beserta jumlah dendanya, apabila kita memasukkan kata "ya" maka menampilkan data atau laporan yang sudah diinputkan oleh user 
 
-""" print("===========DENDA KETERLAMBATAN==========")
+print("===========DENDA KETERLAMBATAN==========")
 jumMhs = int(input("Masukkan jumlah mahasiswa yang terlambat: "))
 namaMhs = []
 jumDenda = []
@@ -37,31 +37,4 @@ if laporan == "ya":
         print("Nama: ", namaMhs[i], ", Jumlah Denda: ", jumDenda[i])
     print("Total Keseluruhan Denda: ", TotalKeseluruhanDenda)
 else:
-    print() """
-
-""" def foo(n):
-    if (n <= 1):
-        print(n, end="")
-    else:
-        foo (n//2)
-        print(n % 2, end="")
-
-foo(173) """
-
-
-""" def foo (n,a,b):
-    if (n <= 0):
-        return
-    foo(n-1, a, b+n)
-    print(n,a,b)
-    foo(n-1, b, a+n)
-
-foo(3,4,5) """
-
-def fun(n):
-    if n == 0:
-        return
-    print(n)
-    fun(n-1)
-fun(4)
-
+    print() 
